@@ -76,7 +76,12 @@
 	.quest_li .info_div {
 		font-size: 1rem;
 	}
-
+	.plusi {
+		width: 90%;
+	}
+	#white_gift {
+		margin-left: 15px;
+	}
 }
 @media (width >= 480px) {
 	.modul_zag {
