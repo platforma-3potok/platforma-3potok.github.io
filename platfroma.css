@@ -1,3 +1,6 @@
+* {
+	white-space: nowrap
+}
 html, body {
 	font-size: 14px;
 }
@@ -176,7 +179,7 @@ body {
 	top: -35px;
 }
 .slogo {
-	font-size: 1.0625rem;
+	font-size: 1.15rem;
 }
 .Lera {
 	margin-inline: auto;
@@ -236,7 +239,7 @@ body {
 	margin-bottom: 23px;
 }
 .plusi {
-	width: 85%;
+	width: 91%;
 	font-weight: 500;
 	font-size: 1.25rem;
 	padding-bottom: 30px;
@@ -339,7 +342,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	font-size: 1.3rem;
+	font-size: 1rem;
 	padding-bottom: 7%;
 	padding-left: 5%;
 	position: relative;
