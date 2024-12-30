@@ -236,7 +236,7 @@ body {
 	margin-bottom: 23px;
 }
 .plusi {
-	width: 80%;
+	width: 85%;
 	font-weight: 500;
 	font-size: 1.25rem;
 	padding-bottom: 30px;
@@ -675,9 +675,9 @@ article.reviews_ar {
 	position: absolute;
 	width: 90vw;
 	max-width: 433px;
-	height: 1.5px;
+	height: 1px;
 	background-color: var(--white);
-	top: -15px;
+	top: -26px;
 	left: calc(5% - 2rem);
 }
 .modul_tp {
@@ -791,7 +791,7 @@ article.reviews_ar {
 	left: 4.65%;
 }
 .dop_urok {
-	font-size: 1.35rem;
+	font-size: 1.15rem;
 	margin-bottom: 30px;
 	margin-left: 4.6%;
 }
