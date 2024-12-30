@@ -688,7 +688,7 @@ article.reviews_ar {
 	margin-bottom: 30px;
 	padding-left: min(21vw, 120px);
 	font-size: 1.15rem;
-	line-height: 0.9em;
+	line-height: 1em;
 }
 
 .urok_1::before {
@@ -857,7 +857,6 @@ article.reviews_ar {
 }
 #white_gift {
 	margin-left: 0.5rem;
-	font-weight: 600;
 }
 .price_tp {
 	font-family: Forum;
@@ -928,4 +927,7 @@ article.reviews_ar {
 .quest_leg {
 	display: block;
 	margin-top: 1rem;
+}
+.info_div summary {
+	font-weight: 600;
 }
