@@ -1,6 +1,6 @@
-/* * {
-	outline: auto;
-} */
+html, body {
+	font-size: 14px;
+}
 .centerr {
 	align-content: center;
 	margin-inline: auto;
