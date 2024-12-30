@@ -1,27 +1,18 @@
-@media (width <= 360px) {
-	html {
-		font-size: 14px;
-	}
-	.info_div {
-		font-size: 1.1rem;
-	}
-	.urok {
-		font-size: 1.15rem;
-	}
-	.modul_zag {
-		font-size: 1.6rem;
 
-	}
-	.quest_li .info_div {
-		font-size: 1rem;
-	}
-}
-@media (width <= 400px) {
+@media (width <= 404px) {
 	.cart {
 		font-size: 1.1rem;
 	}
 	.quest_li .info_div {
 		font-size: 1.1rem;
+	}
+	.center1 {
+		padding-left: 33px;
+	}
+	.center1::before {
+		height: 20px;
+		width: 20px;
+		left: 8px;
 	}
 }
 @media (width >= 400px) {
@@ -67,6 +58,25 @@
 	html {
 		font-size: 15px;
 	}
+}
+@media (width <= 375px) {
+	html {
+		font-size: 14px;
+	}
+	.info_div {
+		font-size: 1.1rem;
+	}
+	.urok {
+		font-size: 1.15rem;
+	}
+	.modul_zag {
+		font-size: 1.6rem;
+
+	}
+	.quest_li .info_div {
+		font-size: 1rem;
+	}
+
 }
 @media (width >= 480px) {
 	.modul_zag {
