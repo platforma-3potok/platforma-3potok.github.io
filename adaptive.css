@@ -40,11 +40,7 @@
 	}
 }
 
-@media (width <= 420px) {
-	.course {
-		font-size: 3.6rem;
-	}
-}
+
 @media (width <= 450px) {
 	.start_cart::after {
 		width: 23vw;
@@ -207,5 +203,16 @@
 @media (width >= 470px) {
 	.info_ul .info_div {
 		font-size: 1.4rem;
+	}
+	.komu {
+		font-size: 1.3rem;
+	}
+}
+@media (width <= 420px) {
+	.course {
+		font-size: 3.6rem;
+	}
+	.flex_port {
+		font-size: 1rem;
 	}
 }
