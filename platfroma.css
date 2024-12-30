@@ -143,7 +143,7 @@ body {
 }
 
 .logo_cont {
-	background: url(http://postimg.su/image/FBN23Ofl/logo.png);
+	background: url(svg/logo.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -189,7 +189,7 @@ body {
 	content: '';
 	width: 15px;
 	height: 15px;
-	background-image: url(http://postimg.su/image/G8P3mkcw/white_zvezda.png);
+	background-image: url(svg/zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -263,7 +263,7 @@ body {
 	content: '';
 	width: 15px;
 	height: 15px;
-	background-image: url(http://postimg.su/image/wNf7PqVI/black_zvezda.png);
+	background-image: url(svg/black_zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -271,13 +271,13 @@ body {
 	left: -0.5rem;
 }
 .plus_white::before {
-	background-image: url(http://postimg.su/image/G8P3mkcw/white_zvezda.png);
+	background-image: url(svg/zvezda.svg);
 }
 .over {
 	z-index: 9999;
 }
 .komu_pod {
-	background-image: url(http://postimg.su/image/tgnEiySV/cover.jpg);
+	background-image: url(photo/photo_2024-12-14_23-19-53.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -309,7 +309,7 @@ body {
 	content: '';
 	width: 25px;
 	height: 25px;
-	background-image: url(http://postimg.su/image/wNf7PqVI/black_zvezda.png);
+	background-image: url(svg/black_zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -348,7 +348,7 @@ body {
 	content: '';
 	width: 20px;
 	height: 20px;
-	background-image: url(http://postimg.su/image/G8P3mkcw/white_zvezda.png);
+	background-image: url(svg/zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -384,19 +384,19 @@ body {
 	font-size: 1.2rem;
 }
 .cart2 {
-	background-image: url(http://postimg.su/image/9iEV6ls0/devocka.jpg);
+	background-image: url(photo/devocka.jpg);
 	background-size: 102%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .cart5 {
-	background-image: url(http://postimg.su/image/zOzgFzpe/gift.jpg);
+	background-image: url(photo/gift.jpg);
 	background-size: 102%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 .strelka {
-	background-image: url(http://postimg.su/image/KZaHd4jh/black_strelka.png);
+	background-image: url(svg/strelka11.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -406,7 +406,7 @@ body {
 	margin-top: 15px;
 }
 #white_strelka {
-	background-image: url(http://postimg.su/image/GH1wjitF/white_strelka.png);
+	background-image: url(svg/strelka_white.svg);
 	margin-bottom: 50px;
 }
 .portfolio {
@@ -454,7 +454,7 @@ body {
 	content: '';
 	width: 1em;
 	height: 1em;
-	background-image: url(http://postimg.su/image/wNf7PqVI/black_zvezda.png);
+	background-image: url(svg/black_zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -490,7 +490,7 @@ body {
 	content: '';
 	width: 1.5625rem;
 	height: 1.5625rem;
-	background-image: url(http://postimg.su/image/G8P3mkcw/white_zvezda.png);
+	background-image: url(svg/zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -502,7 +502,7 @@ body {
 	content: '';
 	width: 1.5625rem;
 	height: 1.5625rem;
-	background-image: url(http://postimg.su/image/wNf7PqVI/black_zvezda.png);
+	background-image: url(svg/black_zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -511,7 +511,7 @@ body {
 	top: 34%;
 }
 .start_neob {
-	background-image: url(http://postimg.su/image/tgnEiySV/cover.jpg);
+	background-image: url(photo/photo_2024-12-14_23-19-53.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -552,20 +552,20 @@ body {
 	top: -13%;
 }
 .start_cart.start_1::after {
-	background-image: url(http://postimg.su/image/E77xweKC/комп.png);
+	background-image: url(photo/комп.png);
 }
 .start_cart.start_2::after {
-	background-image: url(http://postimg.su/image/yRNb1Fyi/тетка.png);
+	background-image: url(photo/тетка.png);
 	width: 18.5vw;
 	height: 18.5vw;
 	max-width: 125px;
 	max-height: 125px;
 }
 .start_cart.start_3::after {
-	background-image: url(http://postimg.su/image/PLBGYPWF/книга.png);
+	background-image: url(photo/книга.png);
 }
 .start_cart.start_4::after {
-	background-image: url(http://postimg.su/image/0PapAQ6v/палка.png);
+	background-image: url(photo/палка.png);
 }
 .reviews_tp {
 	margin-block: 4rem;
@@ -579,7 +579,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
-	background-image: url(http://postimg.su/image/47Oc37Tj/heart.jpg);
+	background-image: url(photo/heart.jpg);
 	height: 6vw;
 	width: 7vw;
 	max-width: 40px;
@@ -588,7 +588,7 @@ body {
 	left: 10%;
 }
 #reviews_tp2_red::before {
-	background-image: url(http://postimg.su/image/16wT6Rbu/heart_red.png);
+	background-image: url(svg/heart_red.svg);
 }
 .podcherk {
 	position: relative;
