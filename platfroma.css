@@ -447,7 +447,7 @@ body {
 	font-weight: 500;
 }
 .flex_port li {
-	margin-bottom: 7px;
+	margin-bottom: 12px;
 }
 .port_num {
 	position: absolute;
@@ -960,7 +960,7 @@ article.reviews_ar {
 .info_div summary {
 	font-weight: 600;
 	position: absolute;
-	top: 23px;
+	top: 24px;
 }
 .tariff {
 	width: 90%;
