@@ -652,7 +652,6 @@ article.reviews_ar {
 
 .moduli_tp {
 	background-color: #38464f;
-	padding-bottom: 50px;
 	color: var(--white);
 }
 .modul_zag {
@@ -960,6 +959,8 @@ article.reviews_ar {
 }
 .info_div summary {
 	font-weight: 600;
+	position: absolute;
+	top: 23px;
 }
 .tariff {
 	width: 90%;
