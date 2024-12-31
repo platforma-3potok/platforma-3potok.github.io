@@ -2,7 +2,7 @@
 	white-space: nowrap
 }
 html, body {
-	font-size: 14px;
+	font-size: 16px;
 }
 .centerr {
 	align-content: center;
@@ -36,10 +36,11 @@ body {
 }
 .zagolovok {
 	text-align: center; 
-	letter-spacing: -3px; 
-	line-height: 50px; 
-	font-size: 4.3rem; 
+	letter-spacing: -0.3rem; 
+	line-height: 3.225rem; 
+	font-size: 4rem; 
 	padding-block: 30px;
+	font-family: Forum;
 }
 .menu__btn > span, 
 .menu__btn > span::before,
@@ -150,10 +151,10 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
-	min-width: 64px;
-	min-height: 64px;
-	width: 4vmax;
-	height: 4vmax;
+	min-width: 34.51px;
+	min-height: 34.51px;
+	width: 9.2vmax;
+	height: 9.2vmax;
 	position: relative;
 	top: 15px;
 	left: 15px;
@@ -169,17 +170,16 @@ body {
 
 .name_course {
 	font-family: Forum;
-	font-size: 6.25rem;
-	letter-spacing: -9px;
+	font-size: 4.0625rem;
+	letter-spacing: -0.3rem;
+	line-height: 3.225rem;
 }
-.name_course_2 {
-	font-size: 6.25rem;
-	position: relative;
-	letter-spacing: -8px;
-	top: -35px;
-}
+
 .slogo {
-	font-size: 1.15rem;
+	font-size: 0.9rem;
+	line-height: 1.1rem;
+	letter-spacing: -0.06rem;
+	margin-bottom: 0.4rem;
 }
 .Lera {
 	margin-inline: auto;
@@ -187,6 +187,7 @@ body {
 	border-radius: 5px;
 	position: relative;
 	top: -22px;
+	margin-top: 30px;
 }
 .Valeria::before {
 	content: '';
@@ -208,7 +209,8 @@ body {
 	bottom: 2.5%;
 	color: var(--white);
 	left: 10%;
-	font-size: 1.25rem;
+	font-size: 1rem;
+	line-height: 0.91rem;
 }
 
 .buttonn {
@@ -221,9 +223,10 @@ body {
 	border-radius: 30px;
 	position: relative;
 	top: -5px;
-	font-size: 0.9rem;
-	font-weight: 400;
-	letter-spacing: 2px;
+	font-size: 0.725rem;
+	font-weight: 500;
+	letter-spacing: 0.08625rem;
+	line-height: 0.6875rem;
 }
 .red_bt {
 	font-family: Inter;
@@ -260,18 +263,19 @@ body {
 	position: relative;
 }
 .txt_plus {
-	margin-left: 0.9rem;
+	margin-left: 0.98rem;
 }
 .plus::before {
 	content: '';
-	width: 15px;
-	height: 15px;
+	width: 0.8em;
+	height: 0.8em;
 	background-image: url(svg/black_zvezda.svg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
 	left: -0.5rem;
+	top: 0.2em;
 }
 .plus_white::before {
 	background-image: url(svg/zvezda.svg);
@@ -296,8 +300,8 @@ body {
 	width: 90vw;
 	max-width: 432px;
 	margin-inline: auto;
-	font-size: 1.12rem;
-	font-weight: 600;
+	font-size: 1rem;
+	font-weight: 500;
 	border-radius: 12px;
 	margin-bottom: 10px;
 	min-height: 80px;
@@ -327,12 +331,11 @@ body {
 	align-content: center;
 	gap: 5px;
 	justify-items: center;
-	margin-top: 30px;
 }
 .cart_li {
 	width: 43vw;
 	height: 32vw;
-	background-color: var(--grey);
+	background-color: var(--black);
 	border-radius: 10px;
 	max-width: 207px;
 	max-height: 154px;
@@ -342,7 +345,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	font-size: 1rem;
+	font-size: 0.95rem;
+	line-height: 0.875rem;
 	padding-bottom: 7%;
 	padding-left: 5%;
 	position: relative;
@@ -363,28 +367,28 @@ body {
 	position: absolute;
 	top: 10%;
 	right: 8%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .cart3::after {
 	content: '( 02 )';
 	position: absolute;
 	top: 10%;
 	right: 8%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .cart4::after {
 	content: '( 03 )';
 	position: absolute;
 	top: 10%;
 	right: 8%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .cart6::after {
 	content: '( 04 )';
 	position: absolute;
 	top: 10%;
 	right: 8%;
-	font-size: 1.2rem;
+	font-size: 1rem;
 }
 .cart2 {
 	background-image: url(photo/devocka.jpg);
@@ -415,7 +419,7 @@ body {
 .portfolio {
 	background-color: var(--green);
 	color: var(--white);
-	padding-block: 30px;
+	padding-bottom: 30px;
 }
 .port_ul {
 	justify-items: center;
@@ -431,7 +435,7 @@ body {
 	min-height: 200px;
 	margin-bottom: 10px;
 	padding-left: 3%;
-	padding-bottom: 4%;
+	padding-bottom: 2%;
 }
 .flex_port {
 	height: 100%;
@@ -440,6 +444,7 @@ body {
 	justify-content: flex-end;
 	position: relative;
 	font-size: 1.1rem;
+	font-weight: 500;
 }
 .flex_port li {
 	margin-bottom: 7px;
@@ -447,11 +452,12 @@ body {
 .port_num {
 	position: absolute;
 	top: 4%;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 }
 .port_zvezda {
 	position: relative;
 	left: 1.5em;
+	font-size: 0.9rem;
 }
 .port_zvezda::before {
 	content: '';
@@ -480,7 +486,9 @@ body {
 	padding-left: 3em;
 	border: 1.5px solid var(--black);
 	border-radius: 8px;
-	font-size: 1.2rem;
+	font-size: 1rem;
+	line-height: 0.89rem;
+	font-weight: 500;
 	min-height: 80px;
 	max-width: 433px;
 	position: relative;
@@ -520,13 +528,18 @@ body {
 	background-position: center;
 	color: var(--white); 
 	margin-inline: -1px;
-	padding-block: 60px;
+	padding-bottom: 60px;
+	padding-top: 20px;
+	position: relative;
+}
+.start_ul {
+	margin-top: 20px;
 }
 .start_cart {
 	background-color: var(--white);
 	width: 44vw;
 	height: 35vw;
-	max-width: min(211px, 48vw);
+	max-width: min(180px, 45vw);
 	max-height: 143px;
 	min-height: 110px;
 	color: var(--black);
@@ -534,7 +547,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	padding-bottom: 5%;
 	padding-left: 5%;
 	position: relative;
@@ -571,7 +584,8 @@ body {
 	background-image: url(photo/палка.png);
 }
 .reviews_tp {
-	margin-block: 4rem;
+	margin-bottom: 4rem;
+	margin-top: 1rem;
 }
 .reviews_tp2 {
 	position: relative;
@@ -640,11 +654,10 @@ article.reviews_ar {
 .moduli_tp {
 	background-color: #38464f;
 	padding-bottom: 50px;
-	padding-top: 25px;
 	color: var(--white);
 }
 .modul_zag {
-	font-size: 2rem;
+	font-size: 1.48rem;
 	padding-left: min(7vw, 35px);
 	position: relative;
 	padding-bottom: 25px;
@@ -656,7 +669,7 @@ article.reviews_ar {
 	position: absolute;
 	top: 17%;
 	left: -2%;
-	font-size: 1.39rem;
+	font-size: 1rem;
 }
 .zag_2::before {
 	content: '02';
@@ -693,7 +706,7 @@ article.reviews_ar {
 	position: relative;
 	margin-bottom: 30px;
 	padding-left: min(21vw, 120px);
-	font-size: 1.15rem;
+	font-size: 1rem;
 	line-height: 1em;
 }
 
@@ -795,6 +808,7 @@ article.reviews_ar {
 } 
 .urok::before {
 	left: 4.65%;
+	font-size: 1rem;
 }
 .dop_urok {
 	font-size: 1.15rem;
@@ -803,6 +817,11 @@ article.reviews_ar {
 }
 .bot_brd {
 	border-bottom: var(--white) 2px solid;
+}
+.black_brd {
+	border-bottom: var(--black) 2px solid;
+	display: inline-block;
+	height: 1.1em;
 }
 .polosa {
 	height: 2px;
@@ -859,10 +878,10 @@ article.reviews_ar {
 	height: 7vw;
 	max-height: 28px;
 	max-width: 28px;
-	left: -1.5rem;
+	left: -1.2rem;
 }
 #white_gift {
-	margin-left: 0.5rem;
+	margin-left: 0.9rem;
 }
 .price_tp {
 	font-family: Forum;
@@ -909,10 +928,10 @@ article.reviews_ar {
 	width: 90vw;
     margin-bottom: 0.5rem;
     padding: 1rem;
-	padding-top: 23px;
+	padding-top: 16px;
     padding-left: 3em;
     border-radius: 8px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     min-height: 80px;
     max-width: 433px;
 	font-weight: 500;
@@ -928,7 +947,7 @@ article.reviews_ar {
 	background-position: center;
 	position: absolute;
 	left: 0.9em;
-	top: 27px;
+	top: 25px;
 }
 .quest_leg {
 	display: block;
