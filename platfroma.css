@@ -597,8 +597,8 @@ body {
 	background-image: url(photo/heart.jpg);
 	height: 7vw;
 	width: 7vw;
-	max-width: 100px;
-	max-height: 90px;
+	max-width: 32px;
+	max-height: 32px;
 	top: 23%;
 	left: 14%; 
 	transform: rotate(-20deg);
