@@ -39,7 +39,7 @@ body {
 	letter-spacing: -0.3rem; 
 	line-height: 3.225rem; 
 	font-size: 4rem; 
-	padding-block: 30px;
+	padding-block: 20px;
 	font-family: Forum;
 }
 .menu__btn > span, 
@@ -259,7 +259,7 @@ body {
 	opacity: 70%;
 }
 .plus {
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 	position: relative;
 }
 .txt_plus {
@@ -309,7 +309,7 @@ body {
 .center1 {
 	text-align: left;
 	padding: 20px;
-	padding-left: 60px;
+	padding-left: 40px;
 	position: relative;
 }
 .center1::before {
@@ -321,7 +321,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
-	left: 20px;
+	left: 10px;
 	top: 37%
 }
 
@@ -472,10 +472,12 @@ body {
 	top: 0.1em;
 }
 .proxod {
-	margin-block: 35px;
+	margin-bottom: 35px;
+	margin-top: 15px;
 }
 .info_ul {
-	margin-block: 1rem;
+	margin-bottom: 1rem;
+	margin-top: -1em;
 }
 .info_div {
 	width: 90vw;
@@ -956,4 +958,7 @@ article.reviews_ar {
 }
 .info_div summary {
 	font-weight: 600;
+}
+.tariff {
+	width: 90%;
 }
