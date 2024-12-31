@@ -956,11 +956,10 @@ article.reviews_ar {
 .quest_leg {
 	display: block;
 	margin-top: 1rem;
-
+	line-height: 1rem;
 }
 .info_div summary {
 	font-weight: 600;
-
 }
 .tariff {
 	width: 90%;
