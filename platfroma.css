@@ -251,7 +251,6 @@ body {
 	font-size: 1.05rem;
 	line-height: 1.2rem;
 	margin-top: 25px;
-	margin-bottom: 10px;
 	position: relative;
 	font-weight: 400;
 }
@@ -861,8 +860,12 @@ article.reviews_ar {
 	margin-top: 1.3rem;
 	margin-bottom: 10px;
 }
-
-#white_plusi::after {
+.polosa_white {
+	width: 100%;
+	background-color: var(--white);
+	height: 2px;
+}
+/* #white_plusi::after {
 	content: '';
 	position: absolute;
 	width: 75vw;
@@ -870,8 +873,8 @@ article.reviews_ar {
 	height: 1.2px;
 	background-color: var(--white);
 	bottom: 17px;
-	left: calc(2% - 1rem);
-}
+	left: calc(50% - 75vw);
+} */
 #white_gift::before {
 	content: '';
 	background-image: url(svg/white_gift.svg);
