@@ -862,6 +862,7 @@ article.reviews_ar {
 }
 .polosa_white {
 	width: 100%;
+	max-width: 350px;
 	background-color: var(--white);
 	height: 2px;
 }
