@@ -35,3 +35,14 @@
 		font-size: 1.1rem;
 	}
 }
+@media (width <= 395px) {
+	.plusi .txt_plus {
+		font-size: 1.15rem;
+	}
+}
+@media (width <= 365px) {
+	.plusi .txt_plus {
+		font-size: 1.1rem;
+	}
+}
+
