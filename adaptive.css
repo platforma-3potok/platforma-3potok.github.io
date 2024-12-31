@@ -4,24 +4,12 @@
 	}
 }
 @media (width >= 460px) {
-	.white_plusi {
-		margin-left: 30px;
-	}
-	.plus_white::before {
-		height: 20px;
-		width: 20px;
-		left: -0.8rem;
-	}
-	.txt_plus_white {
-		margin-left: 16px;
-	}
 	#white_gift::before {
 		left: -2.2rem;
 	}
 	#white_gift .txt_plus {
 		margin-left: 5px;
 	}
-	
 	.modul_zag {
 		font-size: 1.776rem;
 	}
@@ -34,6 +22,14 @@
 	.urok::before {
 		font-size: 1.1rem;
 	}
+	.tarifi .tariff {
+		width: 80%;
+	}
+	.polosa_white {
+		position: relative;
+		left: -10px;
+	}
+
 }
 @media (width <= 395px) {
 	.plusi .txt_plus {
