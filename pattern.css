@@ -1,0 +1,46 @@
+:root {
+	--border_radius: 5.64rem;
+	--border_radius_low: 3rem;
+	--letter_spacing: -0.05em;
+	--line_height: 0.924em;
+	--k: 0.5;
+}
+.zagolovok {
+	font-size: 10.84rem;
+	text-align: center;
+}
+.rel {
+	position: relative;
+}
+.abs {
+	position: absolute;
+}
+.low_bold {
+	font-weight: 400;
+}
+.bl_txt {
+	color: var(--black_text);
+}
+.bck_pink {
+	background-color: var(--pink);
+}
+.pink {
+	color: var(--pink);
+}
+.button {
+	border-radius: var(--border_radius);
+	background-image: var(--gradient);
+	max-width: calc(784px*var(--k));
+	width: 60vw;
+	max-height: calc(158px*var(--k));
+	height: 10vw;
+	margin-inline: auto;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	font-size: 2.6rem;
+	box-shadow: var(--shadow);
+	text-transform: uppercase;
+	color: var(--white)!important;
+	cursor: pointer;
+}

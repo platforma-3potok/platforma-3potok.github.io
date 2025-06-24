@@ -1,44 +1,50 @@
-@media (width >= 440px) {
-	html {
-		font-size: 17px;
+@media (min-width: 360px) {
+	:root {
+		--k: 0.333;
 	}
 }
-@media (width >= 460px) {
-	#white_gift::before {
-		left: -2.2rem;
-	}
-	#white_gift .txt_plus {
-		margin-left: 5px;
-	}
-	.modul_zag {
-		font-size: 1.776rem;
-	}
-	.modul_zag::before {
-		font-size: 1.1rem;
-	}
-	.modul_tp .urok {
-		font-size: 1.1rem;
-	}
-	.urok::before {
-		font-size: 1.1rem;
-	}
-	.tarifi .tariff {
-		width: 80%;
-	}
-	.polosa_white {
-		position: relative;
-		left: -10px;
-	}
-
-}
-@media (width <= 395px) {
-	.plusi .txt_plus {
-		font-size: 1.15rem;
+@media (min-width: 375px) {
+	:root {
+		--k: 0.347;
 	}
 }
-@media (width <= 365px) {
-	.plusi .txt_plus {
-		font-size: 1.1rem;
+@media (min-width: 390px) {
+	:root {
+		--k: 0.361;
 	}
 }
-
+@media (min-width: 393px) {
+	:root {
+		--k: 0.3638;
+	}
+}
+@media (min-width: 412px) {
+	:root {
+		--k: 0.381;
+	}
+}
+@media (min-width: 768px) {
+	:root {
+		--k: 0.6;
+	}
+}
+@media (min-width: 768px) {
+	:root {
+		--k: 0.6;
+	}
+}
+@media (min-width: 1280px) {
+	:root {
+		--k: 0.8;
+	}
+}
+@media (min-width: 1366px) {
+	:root {
+		--k: 0.9;
+	}
+}
+@media (min-width: 1920px) {
+	:root {
+		--k: 1;
+	}
+}
