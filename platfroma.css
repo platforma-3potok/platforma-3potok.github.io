@@ -704,7 +704,9 @@ body {
     top: 1em;
     right: 18.95rem;
 }
-
+.tarif .button {
+	margin-bottom: 2rem;
+}
 
 /* Частые вопросы */
 .questions {
