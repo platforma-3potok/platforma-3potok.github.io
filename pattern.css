@@ -43,4 +43,5 @@
 	text-transform: uppercase;
 	color: var(--white)!important;
 	cursor: pointer;
+	font-weight: 400!important;
 }
